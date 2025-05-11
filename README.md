@@ -63,7 +63,8 @@ For each valid input file:
 
 ## How to Run
 
-1. Compile the project using:
+1. make sure the files you want to use as an input are in the root directory (not in inputAndOutput)
+2. Compile the project using:
    ```
    make
    ```
