@@ -61,10 +61,13 @@ For each valid input file:
 
 ---
 
-## Repository Contents
+## How to Run
 
-- `main.c`, `assembler.c`, `parser.c` – main source files.
-- `data_structures.h` – shared headers.
-- `makefile` – build script:
-  ```bash
-  gcc -Wall -ansi -pedantic -o assembler *.c
+1. Compile the project using:
+   ```
+   make
+   ```
+3. Run on an input file:
+   ```
+   ./assembler input.as
+   ```
